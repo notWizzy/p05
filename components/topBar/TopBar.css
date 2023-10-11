@@ -1,4 +1,13 @@
 .topbar-appBar {
-  height: 60;
-  justify-content: 'center';
+  display: flex;
+  justify-content: space-between; /* To separate the name and context */
+  align-items: center;
+  height: 60px; /* Add the unit (e.g., pixels) */
+  background-color: #333; /* Add your desired background color */
 }
+
+.topbar-appContext {
+  margin-right: 10px; /* Add margin or adjust as needed for spacing */
+  text-align: right;
+}
+
